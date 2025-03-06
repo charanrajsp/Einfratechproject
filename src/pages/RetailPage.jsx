@@ -14,7 +14,7 @@ import {
   FaTruck, 
   FaHome 
 } from "react-icons/fa";
-import "./RetailPage.css";
+import "./retailpage.css";
 import { Link } from "react-router-dom";
 
 const RetailPage = () => {
