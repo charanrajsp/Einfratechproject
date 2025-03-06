@@ -1,0 +1,154 @@
+/* Custom Navbar
+.custom-navbar {
+  background-color: antiquewhite;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+
+.navbar-logo {
+  width: 50px; 
+  height: auto;
+}
+
+
+.offcanvas {
+  width: 250px;
+}
+
+.offcanvas-body .nav-link {
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+@media (max-width: 991px) {
+  .custom-navbar {
+    height: auto;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+}
+@media (max-width: 576px) {
+  #navv {
+    width: 100%; 
+  }
+  #Eintx{
+    font-size: 12px; 
+  }
+} */
+
+
+.custom-navbar {
+  background-color: antiquewhite;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+/* Logo */
+.navbar-logo {
+  width: 60px;
+  height: 60px;
+}
+
+/* Brand Title */
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Dropdown Hover Effect */
+.custom-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Button Styling */
+.navbar .btn {
+  font-weight: 600;
+  padding: 8px 20px;
+}
+
+/* Search Icon */
+.search-icon {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .custom-navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+
+  .navbar-brand {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .navbar-title {
+    font-size: 1.3rem;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .navbar .btn {
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-title {
+    font-size: 14px;
+  }
+
+  .navbar-logo {
+    width: 50px;
+    height: 50px;
+  }
+}

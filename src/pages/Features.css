@@ -1,0 +1,95 @@
+.fcustom {
+    padding: 10px 0;
+}
+
+#febg {
+    background: linear-gradient(180deg, #2C3E50, #4A6076, #dee2e6),
+        repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 10px, transparent 10px, transparent 20px);
+    color: white;
+    text-align: center;
+}
+
+.img-hover-zoom {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.img-hover-zoom img {
+    transition: transform 0.4s ease-in-out;
+    display: block;
+    width: 90%;
+    height: auto;
+    border-radius: inherit;
+}
+
+/* Align the first image by adjusting width and position */
+#febg .img-hover-zoom .tab-pane img:first-child {
+    width: 100%; /* Increase the width of the first image */
+    margin-left: 10px; /* Adjust left margin to align with the second image */
+}
+
+/* .img-hover-zoom:hover img {
+    transform: scale(1.1);
+} */
+
+.content p {
+    text-align: justify;
+}
+
+.img-rounded,
+#img {
+    border-radius: 15px;
+}
+
+.nav-pills .nav-link {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.nav-pills .nav-link:hover {
+    background: #6f7070;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile device-specific styles */
+@media (max-width: 900px) {
+    .mobile-image {
+        width: 40%;
+        height: 20%;
+    }
+}
+
+/* Large mobile devices (768px and below) */
+@media (max-width: 768px) {
+    .mobile-image {
+        width: 40%;
+        height: 20%;
+    }
+}
+
+/* Medium mobile devices (600px and below) */
+@media (max-width: 600px) {
+    .mobile-image {
+        width: 40%;
+        height: 20%;
+    }
+}
+
+/* Small mobile devices (480px and below) */
+@media (max-width: 480px) {
+    .mobile-image {
+        width: 40%;
+        height: 20%;
+        margin-left: 10px;
+    }
+}
+
+/* Very small mobile devices (250px and below) */
+@media (max-width: 250px) {
+    .mobile-image {
+        width: 40%;
+        height: 20%;
+    }
+}

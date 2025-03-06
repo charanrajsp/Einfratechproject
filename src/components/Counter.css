@@ -1,0 +1,10 @@
+#counterd {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.number::after {
+    content: '+';
+    color: red;
+    margin-left: 5px;
+}
