@@ -183,7 +183,7 @@ const Dashboard = () => {
             <div className="container my-5 py-5 bg-white rounded">
                 <div className="row align-items-center mb-4 text-center">
                     <div className="col-md-6">
-                        <img src="/public/images/c.jpeg" alt="Facilities Maintenance" className="img-fluid rounded shadow" style={{ maxWidth: "55%", height: "auto" }} />
+                        <img src="/images/c.jpeg" alt="Facilities Maintenance" className="img-fluid rounded shadow" style={{ maxWidth: "55%", height: "auto" }} />
                     </div>
                     <div className="col-md-5">
                         <h2 className="fw-bold text-center pt-3 text-primary" style={{ font: 'times' }}>Comprehensive Facilities Maintenance</h2>
@@ -197,7 +197,7 @@ const Dashboard = () => {
 
                 <div className="row align-items-center mb-4 text-center">
                     <div className="col-md-6 order-md-2">
-                        <img src="/public/images/c2.jpeg" alt="Space Planning" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
+                        <img src="/images/c2.jpeg" alt="Space Planning" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
                     </div>
                     <div className="col-md-6 order-md-1 text-center">
                         <h2 className="fw-bold pt-3 text-primary">Strategic Space Planning and Optimization</h2>
@@ -211,7 +211,7 @@ const Dashboard = () => {
 
                 <div className="row align-items-center mb-4 text-center">
                     <div className="col-md-6">
-                        <img src="/public/images/c3.jpeg" alt="OT Security" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
+                        <img src="/images/c3.jpeg" alt="OT Security" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
                     </div>
                     <div className="col-md-6">
                         <h2 className="fw-bold text-primary text-center pt-3">Robust Operational Technology (OT) Security</h2>
@@ -226,7 +226,7 @@ const Dashboard = () => {
 
                 <div className="row align-items-center mb-4 text-center">
                     <div className="col-md-6 order-md-2">
-                        <img src="/public/images/c4.jpeg" alt="Energy Management" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
+                        <img src="/images/c4.jpeg" alt="Energy Management" className="img-fluid rounded shadow" style={{ maxWidth: "60%", height: "auto" }} />
                     </div>
                     <div className="col-md-6 order-md-1">
                         <h2 className="fw-bold text-primary text-center pt-3">Sustainable Energy Management Solutions</h2>
